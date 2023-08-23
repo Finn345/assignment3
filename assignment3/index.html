@@ -1,161 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-    <title>Griot Theater</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<script src="https://kit.fontawesome.com/f2a8cc3817.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="style.css">
+<title>Griot Theater</title>
 </head>
+<body class="text-center bg-danger">
 
-<body>
-    <!--Navbar/Header-->
-    <section>
-        <nav>
-        <div class="navbar-container">
-            <div class="navbrand"><a href="#"><h1>Griot Theater</h1></a></div>
-                <div class="navbar-links">
-                    <div class="bg-img"><img src="static/theater-image-background.png" alt="People walking on a theater stage"></div>
-                    <ul>
-                        <li>
-                            <a href="">Home</a></li>
-                        <li>
-                            <a href="">Features</a></li>
-                        <li>
-                            <a href="">Our Actors</a></li>
-                        <li>
-                            <a href="">Mission</a></li>
-                        <li>
-                            <a href="">Contact</a>
-                        </li>
-                    </ul>
-                    <div class="date"><h1>April 20</h1>
-                </div>
+    <section class="bg-danger p-2 text-dark bg-opacity-50 p-2 p-4 text-center">
+        <div class="shadow-sm p-3 m-5 bg-body rounded">
+        <p class="fs-1 text-light font-italic">The Griot Theater</p></div>
+    </section>
+    <!--Navbar/header-->
+    <div class="bg-dark text-light p-0">
+    <nav class = "navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse text-right" id="navbarNav">
+            <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link active text-align-start link-light fs-4" aria-current="page" href="#">Griot Theater</a>
+              </li></ul>
+            <ul class="navbar-nav ms-auto space-evenly">
+              <li class="nav-item">
+                <a class="nav-link active link-light" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-light" href="#features">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-light" href="#">Our Actors</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-light" href="#">Mission</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-light" href="#contact">Contact</a>
+              </li>
+            </ul>
             </div>
-        </nav>
+          </div>
+        </div>
+    </nav>
+    </div>
+
+    <section class="bg-dark text-light p-3 text-align-center">
+        <div class="bg-image">
+            <img src="static/theater-image-background.png" class="w-100" />
+            <div class="mask text-light d-flex justify-content-center flex-column text-center" style="background-color: rgba(0, 0, 0, 0.5)">
+              <p class="fs-1 m-0">Featured Shows</p>
+            </div>
+          </div>
     </section>
 
-    <!--Main shows-->
-    <section>
-        <h1>Featured Shows</h1>
-        <div class="flexbox-container">
-            <div class="flexbox-item flexbox-item-1">
-                <img src="static/a-raisin-in-the-sun-theater-1.png" alt="man talking to a child on stage.">
-            </div>
-            <div class="flexbox-item flexbox-item-2">
-                <ul id="Info">
-                <li><b>Raisin In The Sun </b></li>
-                <li>April 6, 2020 - March 20, 2020 </li>
-                <li>Griot Theatre 233 State St Chicago, IL</li>
-                <li>$75</li>
-                </ul>
-            </div>
-            <div class="flexbox-item flexbox-item-3">
-                <button>Read More</button>
-            </div>
-        </div>
-        <hr>
-        <div class="flexbox-container">
-            <div class="flexbox-item flexbox-item-1">
-                <img src="static/a-raisin-in-the-sun-theater-1.png" alt="man talking to a child on stage.">
-            </div>
-            <div class="flexbox-item flexbox-item-2">
-                <ul id="Info">
-                <li><b>Raisin In The Sun </b></li>
-                <li>April 6, 2020 - March 20, 2020 </li>
-                <li>Griot Theatre 233 State St Chicago, IL</li>
-                <li>$75</li>
-                </ul>
-            </div>
-            <div class="flexbox-item flexbox-item-3">
-                <button>Read More</button>
-            </div>
-        </div>
-        <hr>
-        <div class="flexbox-container">
-            <div class="flexbox-item flexbox-item-1">
-                <img src="static/a-raisin-in-the-sun-theater-1.png" alt="man talking to a child on stage.">
-            </div>
-            <div class="flexbox-item flexbox-item-2">
-                <ul id="Info">
-                <li><b>Raisin In The Sun </b></li>
-                <li>April 6, 2020 - March 20, 2020 </li>
-                <li>Griot Theatre 233 State St Chicago, IL</li>
-                <li>$75</li>
-                </ul>
-            </div>
-            <div class="flexbox-item flexbox-item-3">
-                <button>Read More</button>
-            </div>
-        </div>
-        <hr>
-        <div class="flexbox-container">
-            <div class="flexbox-item flexbox-item-1">
-                <img src="static/a-raisin-in-the-sun-theater-1.png" alt="man talking to a child on stage.">
-            </div>
-            <div class="flexbox-item flexbox-item-2">
-                <ul id="Info">
-                <li><b>Raisin In The Sun </b></li>
-                <li>April 6, 2020 - March 20, 2020 </li>
-                <li>Griot Theatre 233 State St Chicago, IL</li>
-                <li>$75</li>
-                </ul>
-            </div>
-            <div class="flexbox-item flexbox-item-3">
-                <button>Read More</button>
-            </div>
-        </div>
-    </section>
+    <!--Main Content-->
 
-    <!--Footer-->
-    <footer>
-        <div class="bottom">
-            <div class="map-img">
-                <img src="static/chicago map screenshot.png" alt="Map" class="mapimg">
-            </div>
-            <div class="footinfo">
-                <div class="foothead">Info</div>
-                <div class="location">
-                    <p class="tiny"><i class="fa-solid fa-location-dot">Griot Theatre 233 State St 
-                        Chicago,IL</i></p>
-                </div>
-                <div class="email">
-                    <p class="tiny"><i class="fa-solid fa-envelope"></i>theaterg123@musical.com</p>
-                </div>
-                <div class="phone">
-                    <p class="tiny"><i class="fa-solid fa-phone"></i>(012)-345-6789</p>
-                </div>
-            </div>
-            <div class="footshows">
-                <div class="foothead">Shows</div>
-                <div class="show">
-                    <a href="#"><p class="tiny">Doctor Stunning</p></a>
-                </div>
-                <div class="show">
-                    <a href="#"><p class="tiny">Space Cops</p></a>
-                </div>
-                <div class="shpw">
-                    <a href="#"><p class="tiny">The Slow End of the Universe</p></a>
-                </div>
-                <div class="show"><a href="#"><p class="tiny">Exile to Torthai</p></a></div>
-            </div>
-            <div class="socials">
-                <div class="foothead">Social</div>
-                <div class="media">
-                    <a href="#"><p class="tiny"><i class="fa-brands fa-facebook">Facebook</p></a></i>
-                </div>
-                <div class="media">
-                    <a href="#"><p class="tiny"><i class="fa-brands fa-twitter-square">Twitter</p></a></i>
-                </div>
-                <div class="media">
-                    <a href="#"><p class="tiny"><i class="fa-brands fa-youtube">Youtube</p></a></i>
-                </div>
-                <div class="media">
-                    <a href="#"><p class="tiny"><i class="fa-brands fa-instagram">Instagram</p></a></i>
-                </div>
-            </div>
+<div class="container p-5" style="background-color: rgb(250, 255, 176);">
+    <div class="p-3 mb-2">
+        <p class="fs-1 text-center bg-dark-subtle text-dark" id="features">March 2020</p>
+    </div>
+<hr>
+  <div class="container text-center" style="border:3px solid #1a1919;">
+    <div class="row">
+      <div class="col">
+        <img src="static/a-raisin-in-the-sun-theater-1.png" alt="Man talking to a child on stage">
+      </div>
+      <div class="col text-align-start p-5">
+        <p>A Raisin in The Sun</p>
+        <p>March 20th 2020 - April 6th 2020</p>
+        <p>Griot Theatre 233 State St Chicago, IL</p>
+        <p>$75</p>
+      </div>
+      <div class="col text-align-center p-5 m-5">
+        <a class="btn" style="background-color: rgb(241, 195, 134);" href="https://www.youtube.com/watch?v=p5sl7fRKB_I&list=LL&index=13" role="button">Read More</a>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="container text-center object-fit-contain" style="border:3px solid #1a1919;">
+    <div class="row">
+      <div class="col">
+        <img src="static/a-raisin-in-the-sun-theater-1.png" alt="Man talking to a child on stage">
+      </div>
+      <div class="col text-align-start p-5">
+        <p>A Raisin in The Sun</p>
+        <p>March 20th 2020 - April 6th 2020</p>
+        <p>Griot Theatre 233 State St Chicago, IL</p>
+        <p>$75</p>
+      </div>
+      <div class="col p-5 m-5">
+        <a class="btn" style="background-color: rgb(241, 195, 134);" href="https://www.youtube.com/watch?v=tmKRhD9KrAM" role="button">Read More</a>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="container text-center" style="border:3px solid #1a1919;">
+    <div class="row">
+      <div class="col float-start">
+        <img src="static/a-raisin-in-the-sun-theater-1.png" alt="Man talking to a child on stage">
+      </div>
+      <div class="col text-align-start p-5">
+        <p>A Raisin in The Sun</p>
+        <p>March 20th 2020 - April 6th 2020</p>
+        <p>Griot Theatre 233 State St Chicago, IL</p>
+        <p>$75</p>
+      </div>
+      <div class="col p-5 m-5">
+        <div class="float end">
+            <a class="btn" style="background-color: rgb(241, 195, 134);" href="https://www.youtube.com/watch?v=VLFuTsIPqJY&list=LL&index=55" role="button">Read More</a>
         </div>
-    </footer>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="container text-center" style="border:3px solid #1a1919;">
+    <div class="row">
+      <div class="col">
+        <img src="static/a-raisin-in-the-sun-theater-1.png" alt="Man talking to a child on stage">
+      </div>
+      <div class="col text-align-start p-5">
+        <p>A Raisin in The Sun</p>
+        <p>March 20th 2020 - April 6th 2020</p>
+        <p>Griot Theatre 233 State St Chicago, IL</p>
+        <p>$75</p>
+      </div>
+      <div class="col p-5 m-5">
+        <a class="btn" style="background-color: rgb(241, 195, 134);" href="https://www.youtube.com/watch?v=iOcLTBDrr9U&list=LL&index=88" role="button">Read More</a>
+      </div>
+    </div>
+  </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</div>
+</div>
 
+<!--Footer-->
+<footer class="bg-dark text-light" id="contact">
+    <div class="container text-align-center pt-4">
+        <img src="static/chicago map screenshot.png" alt="A Map to the Theater" class="float-start">
+        <br>
+        <div class="text-light"> 
+        <br>
+        <div class="container text-center pb-2 pt-2">
+            <div class="row align-items-center">
+              <div class="col text-light pb-3">
+                    <p class="fs-3">Info</p>
+                    <p>Chicago, Illionis, 60011</p>
+                    <p>griottheater@music.net</p>
+                    <p>(123)-345-5678</p>
+              </div>
+              <div class="col">
+                    <p class="fs-3">Shows</p>
+                    <p>A Raisin in The Sun</p>
+                    <p>GHOULS</p>
+                    <p>The Shadow Wizards</p>
+                    <p>The Color Purple</p>
+              </div>
+              <div class="col">
+                    <p class="fs-3">Socials</p>
+                    <p><i class="fa-brands fa-square-facebook"></i><a class="link-light" href="https://www.youtube.com/shorts/OPAaDVVejiM"> Facebook</a></p>
+                    <p><i class="fa-brands fa-square-twitter"></i><a class="link-light" href="https://www.youtube.com/watch?v=LMKegenanxk"> Twitter</a></p>
+                    <p><i class="fa-brands fa-youtube"></i><a class="link-light" href="https://www.youtube.com/watch?v=NZq9nNeGa-0"> Youtube</a></p>
+                    <p><i class="fa-brands fa-instagram"></i><a class="link-light" href="https://www.youtube.com/shorts/ycXvMBsDQ2A"> Instagram</a></p>
+              </div>
+            </div>
+          </div>
+</footer>
 </body>
 </html>
